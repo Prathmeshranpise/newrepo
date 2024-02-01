@@ -36,7 +36,7 @@ env:
            # set this to your Amazon ECR repository name
   ECS_SERVICE: prathservice                 # set this to your Amazon ECS service name
   ECS_CLUSTER: prathcluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION:  prath-revision1.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: prath-revision1.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: prathcontainer           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
